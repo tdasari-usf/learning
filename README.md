@@ -2,11 +2,10 @@
 
 | Topic                           | Status          |
 |---------------------------------|-----------------|
-| [Feature 1 implementation][f1]  | In progress     |
+| [Attention in Transfromers][f1]  | In progress     |
 | [Documentation updates][docs]   | Needs attention |
 | [New feature ideas][features]   | Discussion      |
 
-[f1]: https://github.com/tdasari-usf/
-[bugs]: https://github.com/tdasari-usf/
+[f1]: https://www.youtube.com/watch?v=0JMEhgHyiLI&list=PLWnsVgP6CzaelCF_jmn5HrpOXzRAPNjWj&index=5&ab_channel=MohitIyyer
 [features]: https://github.com/tdasari-usf/
 [docs] : https://github.com/tdasari-usf/
