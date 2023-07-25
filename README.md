@@ -1,4 +1,4 @@
-### learning 
+### learning - Natural Language Processing / LLMs
 
 | Topic                                | Status                                 |
 |--------------------------------------|----------------------------------------|
