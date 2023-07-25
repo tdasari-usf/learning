@@ -1,11 +1,9 @@
 # learning 
 
-| Topic                           | Status          |
-|---------------------------------|-----------------|
-| [Attention in Transfromers][f1]  | In progress     |
-| [Documentation updates][docs]   | Needs attention |
-| [New feature ideas][features]   | Discussion      |
+| Topic                                | Status                                 |
+|--------------------------------------|----------------------------------------|
+| [Attention in Transfromers][attn]    | Done                                   |
+| [Implementation of Attention][impl]  | Need to play around with notebook      |
 
-[f1]: https://www.youtube.com/watch?v=0JMEhgHyiLI&list=PLWnsVgP6CzaelCF_jmn5HrpOXzRAPNjWj&index=5&ab_channel=MohitIyyer
-[features]: https://github.com/tdasari-usf/
-[docs] : https://github.com/tdasari-usf/
+[attn]: https://www.youtube.com/watch?v=0JMEhgHyiLI&list=PLWnsVgP6CzaelCF_jmn5HrpOXzRAPNjWj&index=5&ab_channel=MohitIyyer
+[impl] : https://www.youtube.com/watch?v=FInQBZdSxrg&list=PLWnsVgP6CzaelCF_jmn5HrpOXzRAPNjWj&index=9&ab_channel=MohitIyyer
