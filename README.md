@@ -1,4 +1,7 @@
-### learning - Natural Language Processing / LLMs
+Hi there, this is a place where I've decided to document things I'm learning on a regualar basis. I'd try to add more notes and any materials I've found helpful along the way.
+
+
+#### Natural Language Processing / LLMs
 
 | Topic                                | Status                                 |
 |--------------------------------------|----------------------------------------|
