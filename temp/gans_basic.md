@@ -23,7 +23,8 @@ To get to stable gradients (as mentioned in the vid, need to explore more), we m
 L2  = log(D(G(z))) is equivalent to minimizing L1
 
 
-Steps involved -
+Summary of basic GAN training
+
 generate fake images using gen
 pass the fake images through disc - get predictions, which in disc perspecitve should be fake for it to be a good disc, zero labels.
 take the real images, pass through disc - get predictions, which in disc perspective should be real for it to be a good disc, one labels
@@ -32,7 +33,14 @@ loss2 = loss_fn(real_preds, one_labels)
 
 loss_d = 1/2(loss1 + loss2)
 loss_d.backward(retain_graph = true) - as we will need the fakes generated to train generator.
-update weights.
+update weights -- only discriminator weights are updated.
+
+use the fakes data, pass through again as discriminator weights are updated.
+get_preds fake_preds, from gen perspective we need a dumb discriminator, so it should predict ones.
+
+loss_g = loss_fn(fake_preds, ones)
+loss_g.backward()
+opt_g.step() - only generator weights are updated
 
 
 loss.backward(retain_graph = True) - retains the values of the nodes in computation graph. 
